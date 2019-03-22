@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Гималаи. На крыше мира</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Гималаи, горы, Тибет, Эверест, Будда, красота природы, himalaya, mountains, Tibet, beautiful of nature, budda">
+    <meta name="description" content="Сайт посвящён Гималаям, горам, Тибету, буддизму и красоте природы этого участка мира">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body class="body-page">
+    <!-- блок обёртка для выкатного меню мобильной версии -->
+    <div class="body-page__menu-mobile"> 
+      <header class="header">
+        <div class="header__top">
+          <div class="header__top-content">
+            <a class="logo" href="index.html">
+              <img class="logo__picture" src="./assets/img/common/logo-reds.png" alt="logo">
+            </a>
+            <div class="header__search">
+              <form class="form-search" action="#" method="get">
+                <input class="form-search__field" name="form-search__field" autocomplete="off" placeholder="поиск по сайту" type="search">
+                <button class="form-search__btn" type="submit"></button>
+              </form>
+            </div>
+          </div>  
+        </div>  
+        <div class="header__bottom">
+          <div class="header__nav">
+            <div class="header__nav-mobile"></div>
+              <input type="checkbox" class="header__humburger-nav" id="openSidebarMenu">
+              <label for="openSidebarMenu" class="header__humburger-icon-toggle">
+                <div class="header__humburger-icon header__humburger-icon--diagonal-1"></div>
+                <div class="header__humburger-icon header__humburger-icon--horizontal"></div>
+                <div class="header__humburger-icon header__humburger-icon--diagonal-2"></div>
+              </label>
+            <nav class="nav-menu">
+              <ul class="nav-menu__list">
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link" href="about-himolayas.html">О ГИМАЛАЯХ</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link nav-menu__link--sub" href="#">РЕГИОНЫ</a>
+                    <ul class="nav-menu__submenu">
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Тибет (Китай)</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Непал</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Бутан</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Индия</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Мьянма</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Афганистан</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Пакистан</a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link" href="#">ЗНАЧИМЫЕ МЕСТА</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link nav-menu__link--sub" href="#">ВЕРШИНЫ</a>
+                    <ul class="nav-menu__submenu">
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="everest.html">Джомолунгма (Эверест)</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Чогори</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Канченджанга</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Лхоцзе</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Макалу</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Чо-Ойю</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Дхаулагири</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Манаслу</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Аннапурна</a>
+                      </li>
+                      <li class="nav-menu__subitem">
+                        <a class="nav-menu__sublink" href="#">Другие</a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link" href="#">ТРЕККИНГ</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link" href="#">ГАЛЕРЕЯ</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a class="nav-menu__link" href="#">КОНТАКТЫ</a>
+                </li>
+              </ul>   
+            </nav>
+          </div>
+          <div class="header__slider">
+            <div class="slider">
+              <div class="slider__slides">
+                <img src="./assets/img/index/slides/slide1.jpg" class="slider__img slider__img--shown">
+                <img src="./assets/img/index/slides/slide2.jpg" class="slider__img">
+                <img src="./assets/img/index/slides/slide3.jpg" class="slider__img">
+                <img src="./assets/img/index/slides/slide4.jpg" class="slider__img">
+                <img src="./assets/img/index/slides/slide5.jpg" class="slider__img">
+                <img src="./assets/img/index/slides/slide6.jpg" class="slider__img">
+                <img src="./assets/img/index/slides/slide7.jpg" class="slider__img">
+                <img src="./assets/img/index/slides/slide8.jpg" class="slider__img">
+              </div>
+              <div class="slider__btns">
+                <button type="submit" class="slider__btn slider__btn--prev"></button>
+                <button type="submit" class="slider__btn slider__btn--next"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main__intro">
+          <div class="intro">
+            <p class="intro__welcome">
+              Рады приветствовать Вас <br> на нашем сайте, посвящённом "крыше мира" - Гималайским горам.<br> Это свободный проект, цель которого - поделиться информацией об этом удивительном регионе нашей планеты.
+            </p>
+          </div>
+        </div>
+        <div class="main__container">
+          <div class="sidebar-menu">
+            <ul class="sidebar-menu__list">
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  Религии
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  Народы
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  Книги, фильмы
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  Форум
+                </a>
+              </li>
+              <li class="sidebar-menu__item">
+                <a class="sidebar-menu__link" href="#">
+                  Напишите нам
+                </a>
+              </li>
+            </ul>
+            <div class="sidebar-menu__teg-list">
+              <p class="sidebar-menu__teg-text">
+                <a class="sidebar-menu__teg-link" href="everest.html">Эверест,</a>
+                <a class="sidebar-menu__teg-link" href="about-himolayas.html">О Гималаях</a>
+              </p>
+            </div>
+          </div>
+          <div class="main__journal">
+            <div class="journal">
+              <h1 class="journal__title">ПОСЛЕДНИЕ СТАТЬИ</h1>
+              <div class="jornal__list">
+                <section class="jornal__item">
+                  <a class="jornal__item-link" href="about-himolayas.html">
+                    <img class="jornal__item-image" src="./assets/img/about-himalayas/everest.jpg" alt="Изображение о Гималаях">
+                    <h3 class="jornal__item-chapter">ГЛАВНОЕ</h3>
+                    <h2 class="jornal__item-title">О ГИМАЛАЯХ: ОБЩАЯ ИНФОРМАЦИЯ</h2>
+                  </a>
+                </section>
+                <section class="jornal__item">
+                  <a class="jornal__item-link" href="everest.html">
+                    <img class="jornal__item-image" src="./assets/img/everest/everest-sepia.jpeg" alt="Эверест">
+                    <h3 class="jornal__item-chapter">ВЕРШИНЫ</h3>
+                    <h2 class="jornal__item-title">ДЖОМОЛУНГМА (ЭВЕРЕСТ)</h2>
+                  </a>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__review">
+
+        </div>
+        <div class="main__other">
+          <div class="places">
+            <h1 class="places__title">ИНТЕРЕСНЫЕ МЕСТА</h1>
+            <ul class="places__list">
+              <li class="places__item">
+                <a class="places__link" href="#">
+                  <img class="places__image" src="./assets/img/index/work1-small.jpg"></img>
+                  <span class="places__image-title" alt="Храм Джокангх">ХРАМ ДЖОКАНГХ</span>
+                </a>
+              </li>
+              <li class="places__item">
+                <a class="places__link" href="#">
+                  <img class="places__image" src="./assets/img/index/work2-small.jpg"></img>
+                  <span class="places__image-title" alt="Лхаса - столица Тибета">ЛХАСА - СТОЛИЦА ТИБЕТА</span>
+                </a>
+              </li>
+              <li class="places__item">
+                <a class="places__link" href="#">
+                  <img class="places__image" src="./assets/img/index/work3-small.jpg"></img>
+                  <span class="places__image-title" alt="Озеро Ямдрок-Цо">ОЗЕРО ЯМДРОК-ЦО</span>  
+                </a>
+              </li>
+              <li class="places__item">
+                <a class="places__link" href="#">
+                  <img class="places__image" src="./assets/img/index/work4-small.jpg"></img>
+                  <span class="places__image-title" alt="Кора вокруг горы Кайлас">ГОРА КАЙЛАС</span>
+                </a>
+              </li>
+              <li class="places__item">
+                <a class="places__link" href="#">
+                  <img class="places__image" src="./assets/img/index/work5-small.jpg"></img>
+                  <span class="places__image-title" alt="Монастырь Сера">МОНАСТЫРЬ СЕРА</span>
+                </a>
+              </li>
+              <li class="places__item">
+                <a class="places__link" href="#">
+                  <img class="places__image" src="./assets/img/index/work6-small.jpg"></img>
+                  <span class="places__image-title" alt="Катманду">КАТМАНДУ</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__banner"></div>
+
+      <div class="footer__top">
+        <div class="footer__top-content">
+          <div class="footer__item">
+            <div class="footer-blog">
+              <h4 class="footer-blog__title">
+                Послесловие
+              </h4>
+              <span class="footer-blog__post-title">
+                Всем добра
+              </span>
+              <div class="footer-blog__author-string">
+                <a class="footer-blog__author footer-blog__author-link" href="#">
+                  Admin
+                </a>
+                <span class="footer-blog__author">
+                  , domainname.com
+                </span>
+              </div>
+              <date class="footer-blog__date">
+                Вторник, 5 февраля 2019
+              </date>
+              <p class="footer-blog__text">
+                Спасибо за уделённое ресурсу время, надеюсь вы получили удовольствие и вернётесь. Если у вас есть предложения или замечания, просто пожелания или вы заметили неточность, напишите нам, это важно для нас. Помогите сделать ресурс лучше.
+              </p>
+              <a class="footer-blog__link" href="#">
+                Читать далее >>
+              </a> 
+            </div>
+          </div>
+          
+          <div class="footer__item">
+            <div class="footer-links">
+              <h4 class="footer-links__title">Quick Links </h4>
+              <ul class="footer-links__list">
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Тибет >>
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="everest.html">
+                    Эверест >>
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Полезные ссылки >>
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Онлайн-камеры >>  
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Это интересно >>  
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Галерея >>  
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Форум >>  
+                  </a>
+                </li>
+                <li class="footer-links__item">
+                  <a class="footer-links__link" href="#">
+                    Правила проекта >>  
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer__item">
+            <div class="footer-tweets">
+              <h4 class="footer-tweets__title">Сокровенно о Гималаях</h4>
+              <p class="footer-tweets__quote">
+                <span class="footer-tweets__quote-author">Н.Рерих - </span>"Два мира выражены в Гималаях. Один - мир земли, полный здешних очарований. Глубокие овраги, затейливые холмы столпились до черты облаков... Два отдельных мира, разделенных мглою. Помимо Эвереста (Джомолунгма), сотни вершин Гималайской цепи превосходят Монблан. Если от великой Рангит (река) осмотреть все подступы до снеговой черты и все белые купола вершин, то нигде не запоминается такая открытая стена высот. В этом грандиозном размахе - особое зовущее впечатление и величие Гималаев." 
+              </p>
+            </div>
+          </div>
+        
+          <div class="footer__item">
+            <div class="feedback">
+              <h4 class="feedback__title">Напишите нам</h4>
+              <form class="feedback__form" id="feedback" name="feedback" method="POST">
+                <ul class="feedback__list form-list_contact">
+                  <li class="feedback__item">
+                    <input class="feedback__input" type="text" name="username" required placeholder="Ваше имя" autocomplete="off">
+                    <span class="feedback__error"></span>
+                  </li>
+                  <li class="feedback__item">
+                    <input class="feedback__input" type="email" name="usermail" required placeholder="Ваш Email адрес" autocomplete="off">
+                    <span class="feedback__error"></span>
+                  </li>
+                  <li class="feedback__item">
+                    <input class="feedback__input" type="text" name="subject" required placeholder="Тема сообщения" autocomplete="off">
+                    <span class="feedback__error"></span>
+                  </li>
+                  <li class="feedback__item">
+                    <textarea class="feedback__input" rows="6" name="textmess" placeholder="Текст сообщения"></textarea>
+                    <span class="feedback__error"></span>
+                  </li>
+                  <li class="feedback__item">
+                    <button class="feedback__input-button" id="send_mess" type="submit">ОТПРАВИТЬ</button>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__copyright">
+          <span class="footer__copyright-item">Copyright © 2019 Rogrom - All Rights are Free</span>
+          <span class="footer__copyright-item">From Siberia With Love</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

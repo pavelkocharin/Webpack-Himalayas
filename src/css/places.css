@@ -1,0 +1,229 @@
+.places {
+  margin-top: 20px;
+  background-color: rgb(7, 133, 133);
+  padding: 20px;
+}
+
+.places__title {
+  padding: 0 30px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.places__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.places__item {
+  padding-bottom: 30px;
+}
+
+.places__link {
+  display: flex;
+  position: relative;
+  transition: all .3s ease;
+  border: 5px solid #fff;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0;
+  width: 296px;
+  height: 191px;
+}
+
+.places__link:hover {
+  border-color: #76c38f;
+}
+
+.places__link--mobile-visible {
+  transition: all 2.5s ease;
+  border-color: #76c38f;
+}
+
+
+.places__image {
+  transition: all .2s ease;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 296px;
+  height: 191px;
+}
+
+.places__image:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.places__image--mobile-visible {
+  transition: all 2.5s ease;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.places__image-title {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5); 
+  margin: 0;
+  padding: 8px 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;  
+}
+
+.places__image:hover + .places__image-title {
+  display: none;
+}
+
+.places__image-title--mobile-visible {
+  transition: all 10s ease;
+  opacity: 0;
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .places__item {
+    margin: auto;
+  }
+  
+  .places__link {
+    width: 266px;
+    height: 172px;
+  }
+
+  
+  .places__image {
+    width: 266px;
+    height: 172px;
+  }
+  
+  .places__image:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  .places__image-title {
+    font-size: 20px; 
+  }
+}
+
+/*небольшие телефоны альбомно - 2 колонки стало через изменение размеров*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .places__item {
+    margin: auto;
+  }
+  
+  .places__link {
+    width: 210px;
+    height: 135px;
+  }
+
+  
+  .places__image {
+    width: 210px;
+    height: 135px;
+  }
+  
+  .places__image:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  .places__image-title {
+    font-size: 20px; 
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты - немного поиграл с отступами и размерами*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .places {
+    padding: 20px 0;
+  }
+
+  .places__title {
+    padding: 0 25px;
+  }
+
+  .places__list {
+    justify-content: space-around;
+    padding: 0 25px;
+  }
+
+  .places__item {
+    margin: 0;
+  }
+  
+  .places__link {
+    width: 256px;
+    height: 172px;
+  }
+
+  
+  .places__image {
+    width: 256px;
+    height: 172px;
+  }
+  
+  .places__image:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  .places__image-title {
+    font-size: 1em; 
+  }
+}
+
+/*планшеты*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .places {
+    padding: 20px 0;
+  }
+
+  .places__title {
+    padding: 0 50px;
+  }
+
+  .places__list {
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  .places__item {
+    margin: 0;
+    width: 30%;
+  }
+  
+  .places__link {
+    width: 97%;
+    height: calc(30vw*.635);
+  }
+
+  
+  .places__image {
+    width: 100%;
+    height: calc(30vw*.643);
+  }
+  
+  .places__image:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  .places__image-title {
+    font-size: .8em; 
+  }
+}

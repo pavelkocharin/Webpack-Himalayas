@@ -1,0 +1,257 @@
+.journal {
+  width: 100%; 
+}
+
+.journal__title {
+  padding: 0 50px;
+  letter-spacing: 1px;
+  color: rgb(7, 133, 133);
+  font-weight: 400;
+}
+
+.jornal__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.jornal__item {
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: #fff;
+  width: 30%;
+  height: 350px;
+}
+
+.jornal__item-link {
+  text-decoration: none;
+}
+
+.jornal__item-image {
+  transition: all .3s ease-out;
+  width: 100%;
+  height: 200px;
+}
+
+.jornal__item-image:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.jornal__item-image--mobile-visible {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 1.5s ease;
+}
+
+.jornal__item-chapter {
+  padding: 10px 0 0 20px;
+  letter-spacing: 1px;
+  color: rgb(245, 53, 53);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.jornal__item-title {
+  padding: 10px 20px 0 20px;
+  letter-spacing: 1px;
+  color: rgb(10, 10, 10);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .journal {
+    width: 100%; 
+  }
+  
+  .journal__title {
+    padding: 0 20px;
+  }
+  
+  .jornal__list {
+    padding: 0 20px;
+  }
+  
+  .jornal__item {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+   
+  .jornal__item-image {
+    transition: all .3s ease-out;
+    width: 100%;
+    height: auto;
+  }
+  
+  .jornal__item-image:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  
+  .jornal__item-chapter {
+    margin: 0;
+    letter-spacing: 0;
+    font-size: 1.05em;
+  }
+  
+  .jornal__item-title {
+    margin: 0 0 15px 0;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    font-size: 1.15em;
+  }
+}
+
+/*небольшие телефоны альбомно - замена размеров jornal__item, шрифтов и отступов, Scale*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .journal {
+    width: 100%; 
+  }
+  
+  .journal__title {
+    padding: 0 20px;
+  }
+  
+  .jornal__list {
+    padding: 0 20px;
+  }
+  
+  .jornal__item {
+    margin-bottom: 20px;
+    width: 47%;
+    height: auto;
+  }
+   
+  .jornal__item-image {
+    transition: all .3s ease-out;
+    width: 100%;
+    height: auto;
+  }
+  
+  .jornal__item-image:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  .jornal__item-chapter {
+    margin: 0;
+    padding-left: 10px;
+    letter-spacing: 0;
+    font-size: .9em;
+  }
+  
+  .jornal__item-title {
+    margin: 0 0 15px 0;
+    padding-left: 10px;
+    letter-spacing: 0;
+    font-size: .9em;
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты - совпадает с небольшими телефонами альбомно*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .journal {
+    width: 100%; 
+  }
+  
+  .journal__title {
+    padding: 0 20px;
+  }
+  
+  .jornal__list {
+    padding: 0 20px;
+  }
+  
+  .jornal__item {
+    margin-bottom: 20px;
+    width: 47%;
+    height: auto;
+  }
+   
+  .jornal__item-image {
+    transition: all .3s ease-out;
+    width: 100%;
+    height: auto;
+  }
+  
+  .jornal__item-image:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  .jornal__item-chapter {
+    margin: 0;
+    padding-left: 10px;
+    letter-spacing: 0;
+    font-size: .9em;
+  }
+  
+  .jornal__item-title {
+    margin: 0 0 15px 0;
+    padding-left: 10px;
+    letter-spacing: 0;
+    font-size: .9em;
+  }
+}
+
+/*планшеты*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .journal {
+    width: 100%; 
+  }
+  
+  .journal__title {
+    padding: 0 50px;
+  }
+  
+  .jornal__list {
+    padding: 0 20px;
+  }
+  
+  .jornal__item {
+    margin-bottom: 20px;
+    width: 47%;
+    height: auto;
+  }
+   
+  .jornal__item-image {
+    transition: all .3s ease-out;
+    width: 100%;
+    height: auto;
+  }
+  
+  .jornal__item-image:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .jornal__item-chapter {
+    margin: 0;
+    padding-left: 10px;
+    letter-spacing: 0;
+    font-size: .9em;
+  }
+  
+  .jornal__item-title {
+    margin: 0 0 15px 0;
+    padding-left: 10px;
+    letter-spacing: 0;
+    font-size: .9em;
+  }
+}

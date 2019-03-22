@@ -1,0 +1,52 @@
+.body-page {
+  margin: 0 auto;
+  background-image: url('/assets/img/common/swirl.png');
+  padding: 0;
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* блок обёртка для "выезжающего меню мобильной версии*/
+.body-page__menu-mobile {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .body-page {
+    max-width: 100%;
+  }
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .body-page {
+    max-width: 100%;
+  }
+}
+
+/*небольшие телефоны альбомная*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .body-page {
+    max-width: 100%;
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .body-page {
+    max-width: 100%;
+  }
+}
+
+/*планшеты*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .body-page {
+    max-width: 100%;
+  }
+}

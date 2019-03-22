@@ -1,0 +1,58 @@
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo__picture {
+  width: 200px;
+  height: 70px;
+  -webkit-filter: drop-shadow(5px 0px 3px rgba(245, 244, 244, 0.8));
+  filter: drop-shadow(5px 0px 6px rgba(245, 244, 244, 0.9));
+}
+
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .logo__picture {
+    width: 250px;
+    height: 90px;
+  }
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo__picture {
+    width: 160px;
+    height: 60px;
+  }
+}
+
+/*небольшие телефоны альбомно - совпадает с портретным*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo__picture {
+    width: 160px;
+    height: 60px;
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты - чуть увеличил в сравнении с небольшими телефонами альбомно*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+  
+  .logo__picture {
+    width: 180px;
+    height: 65px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {}

@@ -1,0 +1,278 @@
+.sidebar-menu {
+  float: right;
+  margin: 0 0 5px 15px;
+  padding: 0;
+  width: 20%;
+}
+
+.sidebar-menu__list {
+  margin: 0 0 20px 0;
+  border-top: 1px solid #ecf1f2;
+  -webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+  -moz-box-shadow: 0 2px 0 0 #ecf1f2;
+  box-shadow: 0 2px 0 0 #ecf1f2;
+  background-color: rgba(247, 246, 243, 0.548);
+  padding: 20px;
+  text-align: left;
+  list-style: none;
+}
+
+.sidebar-menu__list--article {
+  background-color: rgba(235, 232, 223, 0.377);
+}
+
+.sidebar-menu__item {
+  border-top: 1px solid #ecf1f2;
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.sidebar-menu__item:last-child {
+  border-bottom: 1px solid #ecf1f2;
+}
+
+.sidebar-menu__link {
+  transition: .3s linear;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #098855;
+  font-size: 13px;
+}
+
+.sidebar-menu__link:hover {
+  color: #ddbe86;
+}
+
+.sidebar-menu__teg-list {
+  border-top: 1px solid #ecf1f2;
+  -webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+  -moz-box-shadow: 0 2px 0 0 #ecf1f2;
+  box-shadow: 0 2px 0 0 #ecf1f2;
+  background-color: rgba(247, 246, 243, 0.548);
+  padding: 20px;
+  text-align: justify;
+}
+
+.sidebar-menu__teg-list--article {
+  background-color: rgba(235, 232, 223, 0.377);
+}
+
+.sidebar-menu__teg-text {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-menu__teg-link {
+  transition: .3s linear;
+  color: #000000;
+  font-size: 14px;
+}
+
+.sidebar-menu__teg-link:hover {
+  text-decoration: none;
+  color: #ddbe86;
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .sidebar-menu {
+    margin: 0 0 5px 5px;
+    padding: 0;
+    width: 30%;
+  }
+  
+  .sidebar-menu__list {
+    margin: 0 0 20px 0;
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 10px 5px;
+  }
+
+  .sidebar-menu__item {
+    padding: 10px 5px;
+  }
+ 
+  .sidebar-menu__link {
+    font-size: 13px;
+  }
+    
+  .sidebar-menu__teg-list {
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 10px 5px;
+  }
+  
+  .sidebar-menu__teg-list--article {
+    background-color: rgba(235, 232, 223, 0.377);
+  }
+  
+  .sidebar-menu__teg-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-menu__teg-link {
+    color: #098855;
+    line-height: 1.5em;
+    white-space: nowrap;
+    font-size: .8em;
+  }
+  
+  .sidebar-menu__teg-link:hover {
+    text-decoration: none;
+    color: #ddbe86;
+  }
+}
+
+/*небольшие телефоны альбомно - замена отступов*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .sidebar-menu {
+    margin: 0 0 5px 10px;
+    padding: 0;
+    width: 30%;
+  }
+  
+  .sidebar-menu__list {
+    margin: 0 0 20px 0;
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 10px 8px;
+  }
+
+  .sidebar-menu__item {
+    padding: 10px;
+  }
+ 
+  .sidebar-menu__link {
+    font-size: 13px;
+  }
+    
+  .sidebar-menu__teg-list {
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 10px 5px;
+  }
+  
+  .sidebar-menu__teg-list--article {
+    background-color: rgba(235, 232, 223, 0.377);
+  }
+  
+  .sidebar-menu__teg-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-menu__teg-link {
+    color: #098855;
+    line-height: 1.5em;
+    white-space: nowrap;
+    font-size: .8em;
+  }
+  
+  .sidebar-menu__teg-link:hover {
+    text-decoration: none;
+    color: #ddbe86;
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты - чуть добавил размер сайдбар-меню от альбомного мобильного*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .sidebar-menu {
+    margin: 0 0 5px 10px;
+    padding: 0;
+    width: 28%;
+  }
+  
+  .sidebar-menu__list {
+    margin: 0 0 20px 0;
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 10px 8px;
+  }
+
+  .sidebar-menu__item {
+    padding: 10px;
+  }
+ 
+  .sidebar-menu__link {
+    font-size: 13px;
+  }
+    
+  .sidebar-menu__teg-list {
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 10px 5px;
+  }
+  
+  .sidebar-menu__teg-list--article {
+    background-color: rgba(235, 232, 223, 0.377);
+  }
+  
+  .sidebar-menu__teg-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-menu__teg-link {
+    color: #098855;
+    line-height: 1.5em;
+    white-space: nowrap;
+    font-size: .8em;
+  }
+  
+  .sidebar-menu__teg-link:hover {
+    text-decoration: none;
+    color: #ddbe86;
+  }
+}
+
+/*планшеты*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sidebar-menu {
+    margin: 0 0 5px 20px;
+    padding: 0;
+    width: 25%;
+  }
+  
+  .sidebar-menu__list {
+    margin: 0 0 20px 0;
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 15px 20px;
+  }
+
+  .sidebar-menu__item {
+    padding: 10px;
+  }
+ 
+  .sidebar-menu__link {
+    font-size: 13px;
+  }
+    
+  .sidebar-menu__teg-list {
+    --webkit-box-shadow: 0 2px 0 0 #ecf1f2;
+    --moz-box-shadow: 0 2px 0 0 #ecf1f2;
+    padding: 15px 20px;
+  }
+  
+  .sidebar-menu__teg-list--article {
+    background-color: rgba(235, 232, 223, 0.377);
+  }
+  
+  .sidebar-menu__teg-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-menu__teg-link {
+    color: #098855;
+    line-height: 1.5em;
+    white-space: nowrap;
+    font-size: .8em;
+  }
+  
+  .sidebar-menu__teg-link:hover {
+    text-decoration: none;
+    color: #ddbe86;
+  }
+}

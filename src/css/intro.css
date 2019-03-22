@@ -1,0 +1,120 @@
+.intro {
+  transition: all 1s ease;
+  background-image: url('/assets/img/index/yamdrok.jpg');
+  margin-top: 0;
+  padding: 40px 120px;
+  text-align: center;
+}
+  
+.intro:hover {
+  -webkit-filter: contrast(135%); 
+  filter: contrast(135%); 
+}
+  
+.intro__welcome {
+  transition: all .3s ease-out;
+  background-color: rgba(247, 246, 243, 0.15);
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(228, 222, 222);
+}
+  
+.intro:hover > .intro__welcome {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.intro__welcome--mobile-visible {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all .3s ease-out;
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .intro {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .intro__welcome {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+   
+  .intro:hover > .intro__welcome {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+/*небольшие телефоны альбомно - совпадает с портретной*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .intro {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .intro__welcome {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+   
+  .intro:hover > .intro__welcome {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты - совпадает с небольшими телефонами альбомно*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .intro {
+    background-size: cover;
+    padding: 10px 30px;
+  }
+
+  .intro__welcome {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+   
+  .intro:hover > .intro__welcome {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+/*планшеты*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    background-size: cover;
+    padding: 30px;
+  }
+
+  .intro__welcome {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+   
+  .intro:hover > .intro__welcome {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}

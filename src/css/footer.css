@@ -1,0 +1,191 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #343434;
+  width: 100%;
+  height: auto;
+  font-family: Georgia;
+}
+
+.footer__banner {
+  background-image: url('/assets/img/common/footer-banner-1024.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 200px;
+}
+
+.footer__top {
+  border-bottom: 1px solid rgb(17, 16, 16);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__top-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #343434;
+  padding: 40px 20px 40px;
+  max-width: 1024px;
+  height: auto;
+}
+
+.footer__bottom {
+  
+  border-top: 1px solid #303030;
+
+  background-color: #2b2b2b;
+  width: 100%;
+}
+
+.footer__copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+} 
+
+.footer__copyright-item {
+  padding: 22px 20px;
+  color: #979797;
+  letter-spacing: 0.4px;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.footer__item {
+  margin: 0;
+  padding: 0;
+  width: 23%;
+  min-height: 280px;
+}
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .footer__banner {
+    background-image: url('/assets/img/common/footer-banner-1920.jpg');
+    height: 250px;
+  }
+}
+
+/*телефоны портретно*/
+@media (min-width: 320px) and (max-width: 479px) {
+  .footer__banner {
+    height: calc(99vw*0.2);
+  }
+    
+  .footer__top-content {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  .footer__copyright {
+    flex-direction: column;
+  } 
+  
+  .footer__copyright-item {
+    padding: 20px 20px;
+    letter-spacing: 0;
+    font-size: .8em;
+    font-weight: 100;
+  }
+  
+  .footer__item {
+    padding-bottom: 40px;
+    width: 100%;
+    min-height: 200px;
+  }
+}
+
+/*небольшие телефоны альбомная - совпадает с портретной*/
+@media (min-width: 480px) and (max-width: 599px) {
+  .footer__banner {
+    height: calc(99vw*0.2);
+  }
+    
+  .footer__top-content {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  
+  .footer__copyright {
+    flex-direction: column;
+  } 
+  
+  .footer__copyright-item {
+    padding: 5px 20px;
+    letter-spacing: 0;
+    font-size: .8em;
+    font-weight: 100;
+  }
+  
+  .footer__item {
+    padding-bottom: 40px;
+    width: 48%;
+    min-height: 200px;
+  }
+}
+
+/*телефоны альбомно и небольшие планшеты - совпадает с небольшими телефонами альбомно (кроме ниж отступа footer__top-content*/
+@media (min-width: 600px) and (max-width: 767px) {
+  .footer__banner {
+    height: calc(99vw*0.2);
+  }
+    
+  .footer__top-content {
+    flex-direction: row;
+    padding: 40px 20px 20px;
+    max-width: 100%;
+  }
+  
+  .footer__copyright {
+    flex-direction: column;
+  } 
+  
+  .footer__copyright-item {
+    padding: 5px 20px;
+    letter-spacing: 0;
+    font-size: .8em;
+    font-weight: 100;
+  }
+  
+  .footer__item {
+    padding-bottom: 40px;
+    width: 48%;
+    min-height: 200px;
+  }
+}
+
+/*планшеты*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__banner {
+    height: calc(99vw*0.2);
+  }
+    
+  .footer__top-content {
+    flex-direction: row;
+    padding: 40px 20px 20px;
+    max-width: 100%;
+  }
+  
+  .footer__copyright {
+    flex-direction: column;
+  } 
+  
+  .footer__copyright-item {
+    padding: 5px 20px;
+    letter-spacing: 0;
+    font-size: .8em;
+    font-weight: 100;
+  }
+  
+  .footer__item {
+    padding-bottom: 40px;
+    width: 48%;
+    min-height: 200px;
+  }
+}
