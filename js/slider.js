@@ -14,11 +14,7 @@ window.onload = function(e){
     this.btPrev = document.querySelector(images.prev);
     this.btNext = document.querySelector(images.next);
     this.interval = images.interval;
-
-    if(!this.btPrev) {
-      return null;
-    }
-
+  
     var i = 0;
   
     this.prev = function() {

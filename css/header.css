@@ -9,7 +9,7 @@
 }
 
 .header__top {
-  background-image: url('/assets/img/common/header-banner.jpg');
+  background-image: url(../img/common/header-banner.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 40px 20px;
@@ -26,8 +26,6 @@
   display: flex;
   flex-direction: column;
   position: static;
-  /*отключение для выпадания меню на страницах без слайдера, если ни на что не влияет - убрать*/
-  -overflow: hidden;
   margin: 0;
   padding: 0;
   height: auto;

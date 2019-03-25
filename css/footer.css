@@ -8,7 +8,7 @@
 }
 
 .footer__banner {
-  background-image: url('/assets/img/common/footer-banner-1024.jpg');
+  background-image: url(../img/common/footer-banner-1024.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100%;
@@ -67,7 +67,7 @@
 
 @media (min-width: 1025px) and (max-width: 1920px) {
   .footer__banner {
-    background-image: url('/assets/img/common/footer-banner-1920.jpg');
+    background-image: url(../img/common/footer-banner-1920.jpg);
     height: 250px;
   }
 }

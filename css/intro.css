@@ -1,6 +1,6 @@
 .intro {
   transition: all 1s ease;
-  background-image: url('/assets/img/index/yamdrok.jpg');
+  background-image: url(../img/index/yamdrok.jpg);
   margin-top: 0;
   padding: 40px 120px;
   text-align: center;

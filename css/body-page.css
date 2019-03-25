@@ -1,6 +1,6 @@
 .body-page {
   margin: 0 auto;
-  background-image: url('/assets/img/common/swirl.png');
+  background-image: url(../img/common/swirl.png);
   padding: 0;
   max-width: 1024px;
   width: 100%;

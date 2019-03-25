@@ -44,11 +44,11 @@
 }
 
 .main__article-title--about-himalayas {
-  background-image: url('/assets/img/about-himalayas/header-top.jpg');
+  background-image: url(../img/about-himalayas/header-top.jpg);
 }
 
 .main__article-title--everest {
-  background-image: url('/assets/img/everest/everest.jpg');
+  background-image: url(../img/everest/everest.jpg);
 }
 
 .main__text-h {
